@@ -1,0 +1,33 @@
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product: Bamba price: 6
+product: Potato chips price: 6
+product: Bisli price: 6
+product: Potato chips price: 6
+product: Potato chips price: 6
+product: Bisli price: 6
+product: Bisli price: 6
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product:  price: 15
+product: Potato chips price: 6
+product: Potato chips price: 6
+product: Potato chips price: 6
+product: Potato chips price: 6
+product: Potato chips price: 6
+product: Potato chips price: 6
+product:  price: 15
+product: Bamba price: 6

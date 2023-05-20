@@ -8,9 +8,13 @@ namespace VendingMachine.ColdDrinkDecorator
 {
     public class IceCoffee : Drink
     {
+        public IceCoffee()
+        {
+            this.Price = 10;
+        }
         public virtual int GetCost()
         {
-            return this.Price = 10;
+            return this.Price;
         }
     }
 }

@@ -18,7 +18,7 @@ namespace VendingMachine
         {
             drinks= new Dictionary<Drink, int>()
             {
-                {new IceCoffee() { Name="Ice Coffee",Price=6},20 }
+                {new IceCoffee() { Name="Ice Coffee"},20 }
             };
             snacksAndBottles = new Dictionary<SnacksAndBottles, int>()
             {

@@ -11,6 +11,7 @@ namespace VendingMachine.ColdDrinkDecorator
         public CaramelDecorator(IceCoffee ice_Coffee):base(ice_Coffee) { }
         public override int GetCost()
         {
+
             return base.GetCost()+1;
         }
     }

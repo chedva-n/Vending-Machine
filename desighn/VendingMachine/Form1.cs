@@ -150,7 +150,8 @@ namespace VendingMachine
             
             Drink drink = vendingMachine.drinks.Keys.FirstOrDefault(d => d.Name == "Ice Coffee");
             IceCoffee basicIceCoffee = (IceCoffee)drink;
-            List<CheckBox> listcheckd = new List<CheckBox>();
+            
+            List <CheckBox> listcheckd = new List<CheckBox>();
             
             foreach (CheckBox checkBox in decoratorCheckboxes)
             {
@@ -175,6 +176,9 @@ namespace VendingMachine
                 }
 
             }
+            IceCoffee result = new IceCoffee();
+            result.Price = basicIceCoffee.GetCost();
+            selectedProduct = result;
             List<string> chosenToppings = new List<string>();
 
             foreach (CheckBox checkBox in listcheckd)
@@ -195,7 +199,7 @@ namespace VendingMachine
             Label label = new Label();
             Controls.Add(label);
 
-label.Text=  $"{selectedProduct.Price}";
+        label.Text=  $"{selectedProduct.Price}";
             label.Width = 500;
            // MessageBox.Show("sum for paiment:", $"{selectedProduct.Price} ", MessageBoxButtons.OK);
             //context.Request();

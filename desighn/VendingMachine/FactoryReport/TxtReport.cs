@@ -9,32 +9,28 @@ namespace VendingMachine.FactoryReport
 {
     public class TxtReport : Report
     {
-        private string path = "../../../dailyReports.txt";
-         //StreamWriter sw=new StreamWriter("../../../dailyReports.txt");
+        private string filePath;
 
-        //static FileStream fs;
-        public TxtReport(FileType fileType):base(fileType)
+        public TxtReport(FileType fileType) : base(fileType)
         {
-           
+            string folderPath = "../../../Reports";
+            if (!Directory.Exists(folderPath))
+                Directory.CreateDirectory(folderPath);
 
-            //fs= File.Create("dailyReports.txt");
+            string fileName = DateTime.Now.ToString("ddMMyyyy") + ".txt";
+            filePath = Path.Combine(folderPath, fileName);
         }
 
-        public override void write(Product product)
+        public override void write(ReportData reportData)
         {
-            if (!File.Exists(path))
+            using (StreamWriter sw = File.AppendText(filePath))
             {
-                using (StreamWriter sw = File.CreateText(path))
-                {
-                    sw.WriteLine($"product: {product.Name} price: {product.Price}");
-                }
+                sw.WriteLine($"Product: {reportData.Name} - Price: {reportData.Price}");
+                sw.WriteLine();
             }
-            else using (StreamWriter sw = File.AppendText(path))
-            {
-                sw.WriteLine($"product: {product.Name} price: {product.Price}");
-            }
-
-            
         }
     }
+
+
 }
+

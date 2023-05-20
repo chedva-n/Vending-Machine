@@ -52,7 +52,11 @@
             // 
             // hotDrink
             // 
-            this.hotDrink.Location = new System.Drawing.Point(169, 457);
+            this.hotDrink.BackgroundImage = global::VendingMachine.Properties.Resources.two_cups_coffee_plate_coffee_table_with_beans;
+            this.hotDrink.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.hotDrink.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hotDrink.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.hotDrink.Location = new System.Drawing.Point(204, 460);
             this.hotDrink.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.hotDrink.Name = "hotDrink";
             this.hotDrink.Size = new System.Drawing.Size(152, 84);
@@ -159,7 +163,7 @@
             this.iceCoffee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.iceCoffee.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.iceCoffee.ForeColor = System.Drawing.Color.Linen;
-            this.iceCoffee.Location = new System.Drawing.Point(327, 457);
+            this.iceCoffee.Location = new System.Drawing.Point(362, 460);
             this.iceCoffee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iceCoffee.Name = "iceCoffee";
             this.iceCoffee.Size = new System.Drawing.Size(144, 84);
@@ -170,12 +174,17 @@
             // 
             // iceCoffeeDiat
             // 
-            this.iceCoffeeDiat.Location = new System.Drawing.Point(477, 457);
+            this.iceCoffeeDiat.BackgroundImage = global::VendingMachine.Properties.Resources.chocolate_smoothie;
+            this.iceCoffeeDiat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iceCoffeeDiat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.iceCoffeeDiat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iceCoffeeDiat.Location = new System.Drawing.Point(512, 460);
             this.iceCoffeeDiat.Name = "iceCoffeeDiat";
-            this.iceCoffeeDiat.Size = new System.Drawing.Size(151, 84);
+            this.iceCoffeeDiat.Size = new System.Drawing.Size(140, 84);
             this.iceCoffeeDiat.TabIndex = 4;
             this.iceCoffeeDiat.Text = "Ice Coffee Diat";
             this.iceCoffeeDiat.UseVisualStyleBackColor = true;
+            this.iceCoffeeDiat.Click += iceCoffee_Click;
             // 
             // label1
             // 
@@ -277,7 +286,7 @@
             this.giftWrapper.Text = "Gift Wrapper";
             this.giftWrapper.UseVisualStyleBackColor = true;
             this.giftWrapper.Visible = false;
-            this.giftWrapper.Click += new System.EventHandler(this.button1_Click_1);
+            this.giftWrapper.Click += new System.EventHandler(this.giftWrapper_Click);
             // 
             // back
             // 
@@ -318,7 +327,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "                                              ";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

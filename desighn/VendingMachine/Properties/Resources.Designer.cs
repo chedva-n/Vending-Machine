@@ -63,9 +63,29 @@ namespace VendingMachine.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chocolate_smoothie {
+            get {
+                object obj = ResourceManager.GetObject("chocolate-smoothie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap glass_foamy_cold_coffee_with_whipped_cream_chocolate_wooden_plate {
             get {
                 object obj = ResourceManager.GetObject("glass-foamy-cold-coffee-with-whipped-cream-chocolate-wooden-plate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap two_cups_coffee_plate_coffee_table_with_beans {
+            get {
+                object obj = ResourceManager.GetObject("two-cups-coffee-plate-coffee-table-with-beans", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

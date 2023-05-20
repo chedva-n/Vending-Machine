@@ -1,0 +1,16 @@
+Product: Potato chips - Price: 6
+
+Product: Bisli - Price: 6
+
+Product: Bamba - Price: 6
+
+Product: hot drink - Price: 15
+
+Product: ice coffee - Price: 12
+
+Product: ice coffee - Price: 15
+
+Product: ice coffee - Price: 15
+
+Product: ice coffee - Price: 14
+

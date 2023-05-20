@@ -8,9 +8,14 @@ namespace VendingMachine.ColdDrinkDecorator
 {
     public class DiatIceCoffee : IceCoffee
     {
+        public DiatIceCoffee()
+        {
+            this.Price = 13;
+            this.Name = "diat ice coffee";
+        }
         public override int GetCost()
         {
-            return 13;
+            return this.Price;
         }
     }
 }

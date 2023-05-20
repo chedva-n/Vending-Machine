@@ -12,6 +12,7 @@ namespace VendingMachine.BuilderHotDrink
         public HotDrink():base() 
         {
             this.Price = 15;
+            this.Name = "hot drink";
             this.Ingredients = new List<string>();
         }
         //public void showDrink()

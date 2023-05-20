@@ -15,6 +15,6 @@ namespace VendingMachine.FactoryReport
         {
             this.fileType = fileType;
         }
-        public abstract void write(Product product);
+        public abstract void write(ReportData reportData);
     }
 }

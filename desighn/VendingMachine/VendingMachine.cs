@@ -5,20 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using VendingMachine.ColdDrinkDecorator;
 using VendingMachine.SupplierObserver;
-
+using VendingMachine.BuilderHotDrink;
+using VendingMachine.State;
 namespace VendingMachine
 {
     public class VendingMachine
     {
+        public Context context { get; set; }
         public Dictionary<SnacksAndBottles, int> snacksAndBottles;
         public Dictionary<Drink, int> drinks;
         public Subject subject { get; set; }
         public Supplier supplier { get; set; }
         public VendingMachine()
         {
-            drinks= new Dictionary<Drink, int>()
+            
+            drinks = new Dictionary<Drink, int>()
             {
-                {new IceCoffee() { Name="Ice Coffee"},20 }
+                {new IceCoffee() { Name="Ice Coffee"},20 },
+                {new DiatIceCoffee() { Name="Diat Ice Coffee"},20 },
+                {new HotDrink() { Name="Hot drink"},20 }
             };
             snacksAndBottles = new Dictionary<SnacksAndBottles, int>()
             {
@@ -50,10 +55,19 @@ namespace VendingMachine
             {
                 subject.Notify(product);
             }
-          
+        }
+        public void RemoveDrink(Drink product)
+        {
+            if (drinks.ContainsKey(product))
+            {
+                drinks[product] -= 1;
+            }
+            if (drinks[product] <= 5)
+            {
+                subject.Notify(product);
+            }
         }
 
 
-        
     }
 }

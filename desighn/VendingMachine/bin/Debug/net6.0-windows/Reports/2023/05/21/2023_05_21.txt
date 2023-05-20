@@ -1,0 +1,4 @@
+Product: Potato chips - Price: 6
+
+Product: Bisli - Price: 6
+

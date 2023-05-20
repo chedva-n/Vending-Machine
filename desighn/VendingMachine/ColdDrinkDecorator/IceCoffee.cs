@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VendingMachine.ColdDrinkDecorator
 {
-    public class IceCoffee : ColdDrink
+    public class IceCoffee : Drink
     {
         public virtual int GetCost()
         {

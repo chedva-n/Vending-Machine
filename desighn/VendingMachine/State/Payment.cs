@@ -15,7 +15,7 @@ namespace VendingMachine.State
         }
         public override void Handle(Context contex)
         {
-            MessageBox.Show("hi");
+         
             contex.state = new Selection(form);
         }
     }

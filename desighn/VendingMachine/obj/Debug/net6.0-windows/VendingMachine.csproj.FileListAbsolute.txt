@@ -1,34 +1,16 @@
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.exe
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.deps.json
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.runtimeconfig.json
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.dll
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.pdb
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.AssemblyReference.cache
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.Form1.resources
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.Properties.Resources.resources
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.GenerateResource.cache
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.AssemblyInfoInputs.cache
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.AssemblyInfo.cs
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.CoreCompileInputs.cache
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.dll
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\refint\VendingMachine.dll
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.pdb
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.genruntimeconfig.cache
-C:\Users\נפתלי חדוה\Desktop\desighn\VendingMachine\obj\Debug\net6.0-windows\ref\VendingMachine.dll
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.dll
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.exe
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.dll
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.AssemblyReference.cache
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.Form1.resources
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.Properties.Resources.resources
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.GenerateResource.cache
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.AssemblyInfoInputs.cache
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.AssemblyInfo.cs
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.CoreCompileInputs.cache
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\refint\VendingMachine.dll
-C:\Users\חדוה\Source\Repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.pdb
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.exe
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.dll
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.AssemblyReference.cache
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.Form1.resources
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.Properties.Resources.resources
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.GenerateResource.cache
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.AssemblyInfoInputs.cache
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.AssemblyInfo.cs
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.CoreCompileInputs.cache
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.dll
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\refint\VendingMachine.dll
+C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.pdb
 C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.deps.json
 C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.runtimeconfig.json
 C:\Users\חדוה\source\repos\VendingMachine2\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.pdb

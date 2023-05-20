@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VendingMachine.ColdDrinkDecorator
 {
-    public class Slush:ColdDrink
+    public class Slush:Drink
     {
         public string Flavor { get; set; }
     }

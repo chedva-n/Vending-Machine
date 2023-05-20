@@ -7,7 +7,7 @@ namespace VendingMachine
 {
     public partial class Form1 : Form
     {
-        VendingMachine VendingMachine=new VendingMachine();
+        VendingMachine vendingMachine=new VendingMachine();
         private HotDrinkBuilder builder;
         CheckBox[] builderCheckboxes;
         CheckBox[] decoratorCheckboxes;
@@ -26,6 +26,9 @@ namespace VendingMachine
         public  void Selection()
         {
             clearBord();
+            iceCoffee.Visible = true;
+            iceCoffeeDiat.Visible = true;   
+            hotDrink.Visible = true;    
             int buttonTop = 10; 
             int buttonLeft = 10;   
             int buttonMargin = 10; 
@@ -35,7 +38,7 @@ namespace VendingMachine
             int columnIndex = 0;
             int row = 0;
 
-            foreach (var product in VendingMachine.snacksAndBottles)
+            foreach (var product in vendingMachine.snacksAndBottles)
             {
                 Button button = new Button();
                 button.Text = $"{product.Key.Name}\n{product.Key.Price}";
@@ -62,7 +65,7 @@ namespace VendingMachine
             SnacksAndBottles product = (SnacksAndBottles)button.Tag;
             selectedProduct=product;
             //MessageBox.Show($"Selected product: {product.Name}\n Price: {product.Price}");
-           VendingMachine.RemoveProduct(product);
+           vendingMachine.RemoveProduct(product);
             product.WriteToFile(product);
             context.Request();
             
@@ -142,13 +145,11 @@ namespace VendingMachine
                 item.Visible = false;
             }
         }
-
-
-
         private void orderIceCoffee_Click(object sender, EventArgs e)
         {
             
-            IceCoffee basicIceCoffee = new IceCoffee();
+            Drink drink = vendingMachine.drinks.Keys.FirstOrDefault(d => d.Name == "Ice Coffee");
+            IceCoffee basicIceCoffee = (IceCoffee)drink;
             List<CheckBox> listcheckd = new List<CheckBox>();
             
             foreach (CheckBox checkBox in decoratorCheckboxes)
@@ -185,7 +186,7 @@ namespace VendingMachine
 
             MessageBox.Show(toppingsText, $"Ice coffee\n price: {basicIceCoffee.GetCost()}");
             orderProduct_Click( sender,  e);
-            //goToPay.Visible = true;
+                
         }
         public void Payment()
         {
@@ -208,13 +209,11 @@ label.Text=  $"{selectedProduct.Price}";
         }
         private void orderProduct_Click(object sender, EventArgs e)
         {
-          
             context.Request();
         }
 
         private void bag_Click(object sender, EventArgs e)
         {
-
         }
 
         private void button1_Click_1(object sender, EventArgs e)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VendingMachine.ColdDrinkDecorator;
 using VendingMachine.SupplierObserver;
 
 namespace VendingMachine
@@ -15,6 +16,10 @@ namespace VendingMachine
         public Supplier supplier { get; set; }
         public VendingMachine()
         {
+            drinks= new Dictionary<Drink, int>()
+            {
+                {new IceCoffee() { Name="Ice Coffee",Price=6},20 }
+            };
             snacksAndBottles = new Dictionary<SnacksAndBottles, int>()
             {
             { new SnacksAndBottles(){Name="Bamba",Price=6},6 },

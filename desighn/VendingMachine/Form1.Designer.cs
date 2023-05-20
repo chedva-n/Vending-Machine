@@ -46,26 +46,29 @@
             this.label2 = new System.Windows.Forms.Label();
             this.orderProduct = new System.Windows.Forms.Button();
             this.bag = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.giftWrapper = new System.Windows.Forms.Button();
+            this.back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // hotDrink
             // 
-            this.hotDrink.Location = new System.Drawing.Point(148, 343);
+            this.hotDrink.Location = new System.Drawing.Point(169, 457);
+            this.hotDrink.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.hotDrink.Name = "hotDrink";
-            this.hotDrink.Size = new System.Drawing.Size(133, 63);
+            this.hotDrink.Size = new System.Drawing.Size(152, 84);
             this.hotDrink.TabIndex = 0;
             this.hotDrink.Text = "Hot drink";
             this.hotDrink.UseVisualStyleBackColor = true;
-            this.hotDrink.Click += new System.EventHandler(this.button1_Click);
+            this.hotDrink.Click += new System.EventHandler(this.Hot_drink_Click);
             // 
             // addShoko
             // 
             this.addShoko.AutoSize = true;
             this.addShoko.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.addShoko.Location = new System.Drawing.Point(315, 110);
+            this.addShoko.Location = new System.Drawing.Point(360, 147);
+            this.addShoko.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addShoko.Name = "addShoko";
-            this.addShoko.Size = new System.Drawing.Size(123, 32);
+            this.addShoko.Size = new System.Drawing.Size(154, 39);
             this.addShoko.TabIndex = 1;
             this.addShoko.Text = "add shoko";
             this.addShoko.UseVisualStyleBackColor = true;
@@ -75,9 +78,10 @@
             // 
             this.addWater.AutoSize = true;
             this.addWater.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.addWater.Location = new System.Drawing.Point(315, 180);
+            this.addWater.Location = new System.Drawing.Point(360, 240);
+            this.addWater.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addWater.Name = "addWater";
-            this.addWater.Size = new System.Drawing.Size(118, 32);
+            this.addWater.Size = new System.Drawing.Size(148, 39);
             this.addWater.TabIndex = 1;
             this.addWater.Text = "add water";
             this.addWater.UseVisualStyleBackColor = true;
@@ -87,9 +91,10 @@
             // 
             this.addMilk.AutoSize = true;
             this.addMilk.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.addMilk.Location = new System.Drawing.Point(316, 215);
+            this.addMilk.Location = new System.Drawing.Point(361, 287);
+            this.addMilk.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addMilk.Name = "addMilk";
-            this.addMilk.Size = new System.Drawing.Size(107, 32);
+            this.addMilk.Size = new System.Drawing.Size(133, 39);
             this.addMilk.TabIndex = 1;
             this.addMilk.Text = "add milk";
             this.addMilk.UseVisualStyleBackColor = true;
@@ -99,9 +104,10 @@
             // 
             this.addWhippedMilk.AutoSize = true;
             this.addWhippedMilk.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.addWhippedMilk.Location = new System.Drawing.Point(316, 250);
+            this.addWhippedMilk.Location = new System.Drawing.Point(361, 333);
+            this.addWhippedMilk.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addWhippedMilk.Name = "addWhippedMilk";
-            this.addWhippedMilk.Size = new System.Drawing.Size(188, 32);
+            this.addWhippedMilk.Size = new System.Drawing.Size(236, 39);
             this.addWhippedMilk.TabIndex = 1;
             this.addWhippedMilk.Text = "add whipped milk";
             this.addWhippedMilk.UseVisualStyleBackColor = true;
@@ -111,9 +117,10 @@
             // 
             this.addSugar.AutoSize = true;
             this.addSugar.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.addSugar.Location = new System.Drawing.Point(315, 145);
+            this.addSugar.Location = new System.Drawing.Point(360, 193);
+            this.addSugar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addSugar.Name = "addSugar";
-            this.addSugar.Size = new System.Drawing.Size(118, 32);
+            this.addSugar.Size = new System.Drawing.Size(149, 39);
             this.addSugar.TabIndex = 1;
             this.addSugar.Text = "add sugar";
             this.addSugar.UseVisualStyleBackColor = true;
@@ -123,9 +130,10 @@
             // 
             this.orderDrink.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.orderDrink.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.orderDrink.Location = new System.Drawing.Point(315, 294);
+            this.orderDrink.Location = new System.Drawing.Point(360, 392);
+            this.orderDrink.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.orderDrink.Name = "orderDrink";
-            this.orderDrink.Size = new System.Drawing.Size(97, 32);
+            this.orderDrink.Size = new System.Drawing.Size(111, 43);
             this.orderDrink.TabIndex = 2;
             this.orderDrink.Text = "Confirm";
             this.orderDrink.UseVisualStyleBackColor = false;
@@ -136,9 +144,10 @@
             // 
             this.addCoffee.AutoSize = true;
             this.addCoffee.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.addCoffee.Location = new System.Drawing.Point(316, 74);
+            this.addCoffee.Location = new System.Drawing.Point(361, 99);
+            this.addCoffee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addCoffee.Name = "addCoffee";
-            this.addCoffee.Size = new System.Drawing.Size(126, 32);
+            this.addCoffee.Size = new System.Drawing.Size(159, 39);
             this.addCoffee.TabIndex = 1;
             this.addCoffee.Text = "add Coffee";
             this.addCoffee.UseVisualStyleBackColor = true;
@@ -150,9 +159,10 @@
             this.iceCoffee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.iceCoffee.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.iceCoffee.ForeColor = System.Drawing.Color.Linen;
-            this.iceCoffee.Location = new System.Drawing.Point(286, 343);
+            this.iceCoffee.Location = new System.Drawing.Point(327, 457);
+            this.iceCoffee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.iceCoffee.Name = "iceCoffee";
-            this.iceCoffee.Size = new System.Drawing.Size(126, 63);
+            this.iceCoffee.Size = new System.Drawing.Size(144, 84);
             this.iceCoffee.TabIndex = 3;
             this.iceCoffee.Text = "ice coffee";
             this.iceCoffee.UseVisualStyleBackColor = true;
@@ -160,34 +170,28 @@
             // 
             // iceCoffeeDiat
             // 
-            this.iceCoffeeDiat.Location = new System.Drawing.Point(417, 343);
-            this.iceCoffeeDiat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.iceCoffeeDiat.Location = new System.Drawing.Point(477, 457);
             this.iceCoffeeDiat.Name = "iceCoffeeDiat";
-            this.iceCoffeeDiat.Size = new System.Drawing.Size(132, 63);
+            this.iceCoffeeDiat.Size = new System.Drawing.Size(151, 84);
             this.iceCoffeeDiat.TabIndex = 4;
             this.iceCoffeeDiat.Text = "Ice Coffee Diat";
             this.iceCoffeeDiat.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(316, 32);
+            this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 21);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "build your drink";
-            this.label1.Visible = false;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.TabIndex = 11;
             // 
             // carmel
             // 
             this.carmel.AutoSize = true;
             this.carmel.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.carmel.Location = new System.Drawing.Point(316, 98);
+            this.carmel.Location = new System.Drawing.Point(361, 131);
+            this.carmel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.carmel.Name = "carmel";
-            this.carmel.Size = new System.Drawing.Size(92, 32);
+            this.carmel.Size = new System.Drawing.Size(115, 39);
             this.carmel.TabIndex = 1;
             this.carmel.Text = "Carmel";
             this.carmel.UseVisualStyleBackColor = true;
@@ -197,9 +201,10 @@
             // 
             this.whippedCream.AutoSize = true;
             this.whippedCream.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.whippedCream.Location = new System.Drawing.Point(316, 133);
+            this.whippedCream.Location = new System.Drawing.Point(361, 177);
+            this.whippedCream.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.whippedCream.Name = "whippedCream";
-            this.whippedCream.Size = new System.Drawing.Size(165, 32);
+            this.whippedCream.Size = new System.Drawing.Size(209, 39);
             this.whippedCream.TabIndex = 1;
             this.whippedCream.Text = "whipped cream";
             this.whippedCream.UseVisualStyleBackColor = true;
@@ -209,9 +214,10 @@
             // 
             this.chocolate.AutoSize = true;
             this.chocolate.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.chocolate.Location = new System.Drawing.Point(316, 168);
+            this.chocolate.Location = new System.Drawing.Point(361, 224);
+            this.chocolate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.chocolate.Name = "chocolate";
-            this.chocolate.Size = new System.Drawing.Size(119, 32);
+            this.chocolate.Size = new System.Drawing.Size(148, 39);
             this.chocolate.TabIndex = 1;
             this.chocolate.Text = "Chocolate";
             this.chocolate.UseVisualStyleBackColor = true;
@@ -221,10 +227,9 @@
             // 
             this.orderIceCoffee.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.orderIceCoffee.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.orderIceCoffee.Location = new System.Drawing.Point(318, 211);
-            this.orderIceCoffee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.orderIceCoffee.Location = new System.Drawing.Point(363, 281);
             this.orderIceCoffee.Name = "orderIceCoffee";
-            this.orderIceCoffee.Size = new System.Drawing.Size(86, 32);
+            this.orderIceCoffee.Size = new System.Drawing.Size(98, 43);
             this.orderIceCoffee.TabIndex = 6;
             this.orderIceCoffee.Text = "Confirm";
             this.orderIceCoffee.UseVisualStyleBackColor = false;
@@ -233,22 +238,17 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(316, 32);
+            this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 21);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Toppings";
-            this.label2.Visible = false;
-            this.label2.Click += new System.EventHandler(this.label1_Click);
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 10;
             // 
             // orderProduct
             // 
-            this.orderProduct.Location = new System.Drawing.Point(611, 343);
+            this.orderProduct.Location = new System.Drawing.Point(711, 460);
+            this.orderProduct.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.orderProduct.Name = "orderProduct";
-            this.orderProduct.Size = new System.Drawing.Size(123, 63);
+            this.orderProduct.Size = new System.Drawing.Size(141, 84);
             this.orderProduct.TabIndex = 7;
             this.orderProduct.Text = "order";
             this.orderProduct.UseVisualStyleBackColor = true;
@@ -257,31 +257,46 @@
             // 
             // bag
             // 
-            this.bag.Location = new System.Drawing.Point(497, 122);
+            this.bag.Location = new System.Drawing.Point(568, 163);
+            this.bag.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bag.Name = "bag";
-            this.bag.Size = new System.Drawing.Size(187, 90);
+            this.bag.Size = new System.Drawing.Size(214, 120);
             this.bag.TabIndex = 8;
             this.bag.Text = "Bag";
             this.bag.UseVisualStyleBackColor = true;
             this.bag.Visible = false;
             this.bag.Click += new System.EventHandler(this.bag_Click);
             // 
-            // button1
+            // giftWrapper
             // 
-            this.button1.Location = new System.Drawing.Point(148, 124);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(185, 88);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.giftWrapper.Location = new System.Drawing.Point(169, 165);
+            this.giftWrapper.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.giftWrapper.Name = "giftWrapper";
+            this.giftWrapper.Size = new System.Drawing.Size(211, 117);
+            this.giftWrapper.TabIndex = 9;
+            this.giftWrapper.Text = "Gift Wrapper";
+            this.giftWrapper.UseVisualStyleBackColor = true;
+            this.giftWrapper.Visible = false;
+            this.giftWrapper.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // back
+            // 
+            this.back.Location = new System.Drawing.Point(680, 460);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(156, 65);
+            this.back.TabIndex = 12;
+            this.back.Text = "back to mechine";
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Visible = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(914, 600);
+            this.Controls.Add(this.back);
+            this.Controls.Add(this.giftWrapper);
             this.Controls.Add(this.bag);
             this.Controls.Add(this.orderProduct);
             this.Controls.Add(this.orderIceCoffee);
@@ -300,6 +315,7 @@
             this.Controls.Add(this.addCoffee);
             this.Controls.Add(this.addShoko);
             this.Controls.Add(this.hotDrink);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "                                              ";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -328,6 +344,7 @@
         private Label label2;
         private Button orderProduct;
         private Button bag;
-        private Button button1;
+        private Button giftWrapper;
+        private Button back;
     }
 }

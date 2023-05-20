@@ -16,7 +16,7 @@ namespace VendingMachine.State
         }
         public override void Handle(Context contex)
         {
-            Product selectedProduct=form.
+            //Product selectedProduct = form.
             contex.state = new Wrapper(form);
         }
     }

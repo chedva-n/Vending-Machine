@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VendingMachine.State
 {
-    internal class Wrapper : State
+    public class Wrapper : State
     {
         public Wrapper(Form1 form) : base(form)
         {

@@ -17,7 +17,7 @@ namespace VendingMachine
         {
             snacksAndBottles = new Dictionary<SnacksAndBottles, int>()
             {
-            { new SnacksAndBottles(){Name="Bamba",Price=6},20 },
+            { new SnacksAndBottles(){Name="Bamba",Price=6},6 },
             { new SnacksAndBottles(){Name="Bisli",Price=6},20 },
             { new SnacksAndBottles(){Name="Potato chips",Price=6},20 },
             { new SnacksAndBottles(){Name="Bisli",Price=6},20 },

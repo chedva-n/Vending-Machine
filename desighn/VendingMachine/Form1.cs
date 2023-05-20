@@ -12,6 +12,7 @@ namespace VendingMachine
         CheckBox[] builderCheckboxes;
         CheckBox[] decoratorCheckboxes;
         Context context;
+        private Product selectedProduct;
 
 
         public Form1()
@@ -24,6 +25,7 @@ namespace VendingMachine
         }
         public  void Selection()
         {
+            clearBord();
             int buttonTop = 10; 
             int buttonLeft = 10;   
             int buttonMargin = 10; 
@@ -52,22 +54,13 @@ namespace VendingMachine
                 }
             }
         }
-        public  void Payment()
-        {
-            MessageBox.Show($"sum for paiment: ");
-        }
-        public  void Wrapper()
-        {
-            
-            clearBord();
-            bag.Visible = true;
-            orderProduct.Visible = true;
-        }
+       
        
         private void ProductButton_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             SnacksAndBottles product = (SnacksAndBottles)button.Tag;
+            selectedProduct=product;
             //MessageBox.Show($"Selected product: {product.Name}\n Price: {product.Price}");
            VendingMachine.RemoveProduct(product);
             product.WriteToFile(product);
@@ -85,7 +78,7 @@ namespace VendingMachine
 
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Hot_drink_Click(object sender, EventArgs e)
         {
             clearBord();
             showIngredientsHotdrink();
@@ -150,10 +143,7 @@ namespace VendingMachine
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void orderIceCoffee_Click(object sender, EventArgs e)
         {
@@ -197,10 +187,28 @@ namespace VendingMachine
             orderProduct_Click( sender,  e);
             //goToPay.Visible = true;
         }
+        public void Payment()
+        {
+            clearBord();
+            back.Visible = true;
+            Label label = new Label();
+            Controls.Add(label);
 
+label.Text=  $"{selectedProduct.Price}";
+            label.Width = 500;
+           // MessageBox.Show("sum for paiment:", $"{selectedProduct.Price} ", MessageBoxButtons.OK);
+            //context.Request();
+        }
+        public void Wrapper()
+        {
+            clearBord();
+            bag.Visible = true;
+            giftWrapper.Visible = true;
+            orderProduct.Visible = true;
+        }
         private void orderProduct_Click(object sender, EventArgs e)
         {
-           
+          
             context.Request();
         }
 
@@ -212,6 +220,11 @@ namespace VendingMachine
         private void button1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            context.Request();
         }
     }
    

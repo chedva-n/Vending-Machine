@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g1mpovgUGgSL4dg0IvYl6GjIUDlVj888+mzcb1ziAx/UKJq6008fzrij206YaQ3ScgB0Dcv2p1/6eBDoRjxV5A==",
+  "dgSpecHash": "oUe+esDcB0EzE+G0N8iKC8yrxg3VUw8q8BiUsLVKcS8eFzH2zRwVKzXmNoHC+VKnpdzeyjb2uBCHX/aoOKdIpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chevi\\Desktop\\VendingMachine2\\desighn\\VendingMachine\\VendingMachine.csproj",
+  "projectFilePath": "H:\\Design Patterns\\VendingMachine\\desighn\\VendingMachine\\VendingMachine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

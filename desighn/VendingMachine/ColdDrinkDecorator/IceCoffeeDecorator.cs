@@ -16,7 +16,7 @@ namespace VendingMachine.ColdDrinkDecorator
         }
         public override int GetCost()
         {
-           return iceCoffee.GetCost();
+            return iceCoffee.GetCost();
         }
     }
 }

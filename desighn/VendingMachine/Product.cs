@@ -15,7 +15,6 @@ namespace VendingMachine
         {
             ReportFactory reportFactory = new ReportFactory();
             Report report = reportFactory.Create(FileType.txt);
-
             ReportData reportData = new ReportData();
             reportData.Name = product.Name;
             reportData.Price = product.Price;

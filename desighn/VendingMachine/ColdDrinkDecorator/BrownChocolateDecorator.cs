@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace VendingMachine.ColdDrinkDecorator
 {
-    public class BrownChocolateDecorator:IceCoffeeDecorator
+    public class BrownChocolateDecorator : IceCoffeeDecorator
     {
         public BrownChocolateDecorator(IceCoffee ice_Coffee) : base(ice_Coffee) { }
         public override int GetCost()
         {
-            return base.GetCost()+1;
+            return base.GetCost() + 1;
         }
     }
 }

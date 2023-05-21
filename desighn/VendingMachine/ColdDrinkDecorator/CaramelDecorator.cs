@@ -8,11 +8,11 @@ namespace VendingMachine.ColdDrinkDecorator
 {
     public class CaramelDecorator : IceCoffeeDecorator
     {
-        public CaramelDecorator(IceCoffee ice_Coffee):base(ice_Coffee) { }
+        public CaramelDecorator(IceCoffee ice_Coffee) : base(ice_Coffee) { }
         public override int GetCost()
         {
 
-            return base.GetCost()+1;
+            return base.GetCost() + 1;
         }
     }
 }

@@ -52,3 +52,21 @@ C:\Users\chevi\Desktop\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-w
 C:\Users\chevi\Desktop\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.pdb
 C:\Users\chevi\Desktop\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.genruntimeconfig.cache
 C:\Users\chevi\Desktop\VendingMachine2\desighn\VendingMachine\obj\Debug\net6.0-windows\ref\VendingMachine.dll
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.exe
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.deps.json
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.runtimeconfig.json
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.dll
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\bin\Debug\net6.0-windows\VendingMachine.pdb
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.AssemblyReference.cache
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.Form1.resources
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.Properties.Resources.resources
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.GenerateResource.cache
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.GeneratedMSBuildEditorConfig.editorconfig
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.AssemblyInfoInputs.cache
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.AssemblyInfo.cs
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.csproj.CoreCompileInputs.cache
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.dll
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\refint\VendingMachine.dll
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.pdb
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\VendingMachine.genruntimeconfig.cache
+H:\Design Patterns\VendingMachine\desighn\VendingMachine\obj\Debug\net6.0-windows\ref\VendingMachine.dll

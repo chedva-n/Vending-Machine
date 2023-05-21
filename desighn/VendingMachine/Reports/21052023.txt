@@ -1,16 +1,8 @@
-Product: Potato chips - Price: 6
+Product: Dorituz - Price: 7
 
-Product: Bisli - Price: 6
+Product: ice coffee - Price: 13
 
-Product: Bamba - Price: 6
+Product: Bonbonim - Price: 7
 
-Product: hot drink - Price: 15
-
-Product: ice coffee - Price: 12
-
-Product: ice coffee - Price: 15
-
-Product: ice coffee - Price: 15
-
-Product: ice coffee - Price: 14
+Product: Diat Ice Coffee - Price: 13
 

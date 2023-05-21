@@ -11,8 +11,9 @@ namespace VendingMachine.ColdDrinkDecorator
         public DiatIceCoffee()
         {
             this.Price = 13;
-            this.Name = "diat ice coffee";
+            this.Name = "Diat Ice Coffee";
         }
+
         public override int GetCost()
         {
             return this.Price;

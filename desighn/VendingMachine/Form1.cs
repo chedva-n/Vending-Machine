@@ -38,7 +38,7 @@ namespace VendingMachine
             int columnIndex = 0;
             int row = 0;
 
-            foreach (var product in vendingMachine.snacksAndBottles)
+            foreach (var product in VendingMachine.snacksAndBottles)
             {
                 Button button = new Button();
                 button.Text = $"{product.Key.Name}\n{product.Key.Price}";
@@ -83,18 +83,18 @@ namespace VendingMachine
         private void orderIceCoffee_Click(object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;
-            string buttonName = (string)orderIceCoffee.Tag; ;
+            string buttonName = (string)orderIceCoffee.Tag; 
             Drink drink = new Drink();
             IceCoffee basicIceCoffee=new IceCoffee();
             if (buttonName == "iceCoffee")
             {
-                drink = vendingMachine.drinks.Keys.FirstOrDefault(d => d.Name == "Ice Coffee");
-                 basicIceCoffee = (IceCoffee)drink;
+                drink = VendingMachine.drinks.Keys.FirstOrDefault(d => d.Name == "Ice Coffee");
+                basicIceCoffee = (IceCoffee)drink;
             }
             else
             {
-                drink = vendingMachine.drinks.Keys.FirstOrDefault(d => d.Name == "Diat Ice Coffee");
-                 basicIceCoffee = (DiatIceCoffee)drink;
+                drink = VendingMachine.drinks.Keys.FirstOrDefault(d => d.Name == "Diat Ice Coffee");
+                basicIceCoffee = (DiatIceCoffee)drink;
             }
             
 
@@ -160,7 +160,7 @@ namespace VendingMachine
         }
         private void orderDrink_Click(object sender, EventArgs e)
         {
-            Drink drink= vendingMachine.drinks.Keys.FirstOrDefault(d => d.Name == "Hot drink");
+            Drink drink= VendingMachine.drinks.Keys.FirstOrDefault(d => d.Name == "Hot drink");
             HotDrink hotDrink=(HotDrink)drink;
             foreach (CheckBox item in builderCheckboxes)
             {

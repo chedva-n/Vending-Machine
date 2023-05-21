@@ -13,9 +13,12 @@ namespace VendingMachine.ColdDrinkDecorator
             this.Price = 10;
             this.Name = "ice coffee";
         }
+        
         public virtual int GetCost()
         {
             return this.Price;
         }
+
+        
     }
 }

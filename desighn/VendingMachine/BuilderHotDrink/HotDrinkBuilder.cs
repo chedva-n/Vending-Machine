@@ -8,7 +8,7 @@ namespace VendingMachine.BuilderHotDrink
 {
     public class HotDrinkBuilder : IBuilder
     {
-        private HotDrink hotDrink=new HotDrink();
+        private HotDrink hotDrink = new HotDrink();
         public HotDrinkBuilder()
         {
             this.Reset();
@@ -52,7 +52,7 @@ namespace VendingMachine.BuilderHotDrink
 
         public void AddWhippedmilk()
         {
-            
+
             this.hotDrink.Ingredients.Add("whipped milk");
         }
         public HotDrink getDrink()

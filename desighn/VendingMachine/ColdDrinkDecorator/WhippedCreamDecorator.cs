@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace VendingMachine.ColdDrinkDecorator
 {
-    public class WhippedCreamDecorator:IceCoffeeDecorator
+    public class WhippedCreamDecorator : IceCoffeeDecorator
     {
-        public WhippedCreamDecorator(IceCoffee ice_Coffee) : base(ice_Coffee) { }
+        public WhippedCreamDecorator(IceCoffee ice_Coffee) : base(ice_Coffee)
+        {
+        }
         public override int GetCost()
         {
-            return base.GetCost()+1;
+            return base.GetCost() + 1;
         }
     }
 }

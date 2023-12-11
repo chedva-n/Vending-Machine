@@ -1,4 +1,4 @@
-## Vending machine system
+# Vending machine system
 Vending Machine System is a software application developed using **C#** and WinForms.</br> 
 The code is clean, maintainable and extensible thanks to the use of **Design Patterns**.</br> 
 The **UML** diagram is used in a structured and systematic approach to development.</br> 
